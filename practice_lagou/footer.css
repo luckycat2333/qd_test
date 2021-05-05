@@ -1,0 +1,95 @@
+.footer{
+    width: 100%;
+    height: 138px;
+    padding-top: 49px;
+    padding-bottom: 66px;
+    background-color: #fff;
+}
+.footer .footer-c{
+    height: 138px;
+}
+.footer .login-method{
+    float: left;
+    width: 312px;
+    height: 138px;
+    border-right: 1px solid #e8e8e8;
+}
+.footer .login-method .login-method-btn{
+    display: block;
+    width: 180px;
+    height: 40px;
+    margin-bottom: 16px;
+    border: 1px solid #00b38a;
+    color: #00b38a;
+    line-height: 40px;
+    text-align: center;
+}
+.footer .login-method .login-method-btn i{ 
+    display: inline-block;
+    width: 12px;
+    height: 15px;
+    margin-right: 7px;
+    background: url(../01-03-01-lagou/images/sprite_02.png) no-repeat -150px -220px;
+    vertical-align: middle;/*无法文字水平居中，只能和图标元素的小盒子一起居中，使用vertical居中*/
+
+}
+.footer .login-method .login-method-btn span{
+    vertical-align: middle;
+}
+.footer .login-method .login-method-btn:hover {
+    background-color: #00b38a;
+    color: #fff;
+}
+.footer .login-method .login-method-btn:hover i{
+    background-position: -182px -220px;
+}
+/*层叠公共样式*/
+.footer .login-method .minipro i{
+    width: 16px;
+    height: 14px;
+    background-position: -214px -54px;
+}
+.footer .login-method .minipro:hover i{
+    background-position: -172px -54px;
+}
+/*定位子元素*/
+.footer .login-method .minipro{
+    position: relative;
+}
+.footer .login-method .minipro img{
+    position: absolute;
+    left: 191px;
+    width: 140px;
+    height: 140px;
+    top: 0;
+    border: 1px solid #ccc;
+    display: none;
+}
+.footer .login-method .minipro:hover img{
+    display: block;
+}
+.footer .service{
+    float: left;
+    width: 757px;
+    height: 138px;
+    padding-left: 130px;
+
+}
+.footer .service dl{
+    float: left;
+    width: 252px;
+
+}
+.footer .service dl dt{
+    height: 23px;
+    margin-bottom: 27px;
+    line-height: 23px;
+    font-weight: bold;
+    font-size: 17px;
+    color: #333;
+}
+.footer .service dl dd a{
+    display: block;
+    height: 32px;
+    line-height:32px;
+}

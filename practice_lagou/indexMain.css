@@ -1,0 +1,105 @@
+/*主要内容区域中的分类和焦点图*/
+.content .main{
+    width:100%;
+    height: 376px;
+    padding-top: 33px;
+
+}
+/*侧边栏*/
+.content .main .aside{
+    float: left;
+    width: 306px;
+    height: 376px;
+
+}
+.content .main .aside .classify{
+    width: 306px;
+    height: 376px;
+}
+.content .main .aside .classify li{
+    position: relative;
+    height: 47px;
+    line-height: 47px;
+}
+.content .main .aside .classify li h2{
+    float: left;
+    margin-right: 12px;
+    font-size:18px;
+}
+.content .main .aside .classify li h2 p{
+    float: left;
+}
+
+.content .main .aside .classify li p a{
+    float: left;
+    margin-right: 24px;
+}
+.content .main .aside .classify li h2 p:hover{
+    text-decoration: underline;
+
+}
+.content .main .aside .classify li b{
+    position: absolute;
+    right: 8px;
+    top: 19px;
+    width: 6px;
+    height: 11px;
+    background: url(../01-03-01-lagou/images/main_list_arrow.png) no-repeat 0 0;
+}
+
+
+/*焦点图*/
+.content .main .banner{
+    float: right;
+    width: 840px;
+    height: 346px;
+    margin-top: 13px;
+    background-color: yellow;
+    position: relative;
+    overflow: hidden;
+}
+.content .main .banner ul{
+    position: absolute;
+    width: 5000px;
+    left: 0;
+    top: 0;
+    height: 346px;
+}
+.content .main .banner ul li{
+    float: left;
+    width: 840px;
+    height: 346px;
+
+}
+.content .main .banner .btn span{
+    position: absolute;
+    top: 50%;
+    width: 60px;
+    height: 60px;
+    margin-top: 30px;
+    background: url(../01-03-01-lagou/images/banner_arrow_left.png) no-repeat center center;
+    cursor: pointer;
+}
+.content .main .banner .btn .right-btn{
+    right:0;
+    background: url(../01-03-01-lagou/images/banner_arrow_right.png) no-repeat center center;
+}
+.content .main .banner .btn .left-btn:hover{
+    background:  url(../01-03-01-lagou/images/banner_arrow_left_highlight.png) no-repeat center center;
+}
+.content .main .banner .btn .right-btn:hover{
+    background: url(../01-03-01-lagou/images/banner_arrow_right_highlight.png) no-repeat center center;
+}
+.content .main .banner ol{
+    position: absolute;
+    left: 50%;
+    width: 75px;
+    height:6px ;
+    bottom: 16px;
+    margin-left: -37.5px;
+}
+.content .main .banner ol li.current{
+    width: 13px;
+    margin: 0 1px;
+    background-color: #fff;
+}

@@ -1,0 +1,88 @@
+.hot-recruit .detail ul li .top{
+    width: 100%;
+    height: 105px;
+    border-bottom: 1px dashed #e0e0e0;
+}
+.hot-recruit .detail ul li .top .zhiwei{
+    height: 22px;
+    line-height: 22px;
+
+}
+.hot-recruit .detail ul li .top .zhiwei .name{
+    float: left;
+    max-width: 120px;
+    height: 22px;
+    color: #333;
+    font-size: 16px;
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.hot-recruit .detail ul li .top .zhiwei .time{
+    float: left;
+    color:#999;
+}
+.hot-recruit .detail ul li .top .zhiwei .chat-me{
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin-top: 3px;
+    background: url(../01-03-01-lagou/images/icon_chat.png) no-repeat;
+
+}
+.hot-recruit .detail ul li .top .zhiwei .salary{
+    float: right;
+    color: #fa6041;
+}
+/*信息部分*/
+.hot-recruit .detail ul li .top .info{
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 5px;
+    color: #777777;
+}
+.hot-recruit .detail ul li .top .labels{
+    /*这个盒子高度26px，但是加上边框线就是28px*/
+    height: 28px;
+    
+}
+.hot-recruit .detail ul li .top .labels span{
+    float: left;
+    height: 26px;
+    width: 71px;
+    border: 1px solid #f0f0f0;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 26px;
+    margin-right: 10px;
+    color: #999;
+}
+/*底部*/
+.hot-recruit .detail ul li .bottom{
+    width: 100%;
+    height: 40px;
+    padding-top: 18px;
+
+}
+.hot-recruit .detail ul li .bottom dt {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-right: 14px;
+}
+.hot-recruit .detail ul li .bottom dt img{
+    width: 40px;
+    height: 40px;
+}
+.hot-recruit .detail ul li .bottom dd {
+    float: left;
+    line-height: 20px;
+}
+.hot-recruit .detail ul li .bottom dd h4 {
+    color: #555;
+
+}
+.hot-recruit .detail ul li .bottom dd p {
+    color: #999;
+}
+
